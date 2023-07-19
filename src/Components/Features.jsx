@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import arrowUp from "../images/icon-arrow-up.svg";
 import arrowDown from "../images/icon-arrow-down.svg";
+import todo from "../images/icon-todo.svg";
+import calendar from "../images/icon-calendar.svg";
+import reminders from "../images/icon-reminders.svg";
+import planning from "../images/icon-planning.svg";
 
 const Features = () => {
   const [newClass, setNewClass] = useState("dropdown-menu");
@@ -34,10 +38,18 @@ const Features = () => {
           Features <img className="arrow" alt="" src={arrow} />
         </h4>
         <div className={newClass}>
-          <p>Todo List</p>
-          <p>Calendar</p>
-          <p>Reminders</p>
-          <p>Planning</p>
+          <p>
+            <img alt="" src={todo} /> Todo List
+          </p>
+          <p>
+            <img alt="" src={calendar} /> Calendar
+          </p>
+          <p>
+            <img alt="" src={reminders} /> Reminders
+          </p>
+          <p>
+            <img alt="" src={planning} /> Planning
+          </p>
         </div>
       </div>
     </div>
