@@ -27,6 +27,15 @@ body {
   padding-top: 1rem;
 }
 
+.header h4 {
+  cursor: pointer;
+  color: grey;
+}
+
+.header h4:hover {
+  color: black;
+}
+
 .header-left {
   padding-left: 1rem;
   width: 50%;
@@ -46,8 +55,14 @@ body {
 }
 
 .btn-register {
-  border: 2px solid black;
+  border: 1px solid grey;
   border-radius: 15px;
+  color: grey;
+}
+
+.btn-register:hover {
+  border: 1px solid black;
+  color: black;
 }
 
 .link {
